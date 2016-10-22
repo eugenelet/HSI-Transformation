@@ -97,7 +97,8 @@ int main( int argc, char** argv )
 	createTrackbar( TrackbarName, "Output", &intensity_slider, intensity_slider_max, on_trackbar );
 	
 	on_trackbar( hue_slider, 0 );
-	waitKey(0);
+	// waitKey(0);
+	while((cv::waitKey() & 0xEFFFFF) != 27);
 	
 	return 0;
 		
