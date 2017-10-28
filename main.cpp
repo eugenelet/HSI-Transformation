@@ -1,11 +1,15 @@
 #include <cv.h>
 #include <highgui.h>
 #include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/core/core.hpp>
+#include <opencv/cv.hpp>
 #include <stdio.h>
 #include <fstream>
 #include <cmath>
 #include <math.h>
 #include <algorithm>
+#include <iostream>
 
 using namespace cv;
 
